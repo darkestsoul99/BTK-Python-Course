@@ -26,7 +26,7 @@ class Instagram:
         time.sleep(4)
         self.browser.get(f"https://www.instagram.com/{self.email}")
         time.sleep(4)
-        self.browser.find_element(By.CSS_SELECTOR, 'a[href="/berkekocadere/followers/"]').click()
+        self.browser.find_element(By.CSS_SELECTOR, 'a[href="/yourusername/followers/"]').click()
         time.sleep(4)
         dialog = self.browser.find_element(By.CSS_SELECTOR, "div[role='dialog']")
         
