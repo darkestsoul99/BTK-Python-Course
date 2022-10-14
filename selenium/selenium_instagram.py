@@ -3,8 +3,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys  
 import time 
 
+<<<<<<< HEAD
 my_email = "yourusername"
 my_password = "yourpassword"
+=======
+my_email = "yourpassword"
+my_password = "yourusername"
+>>>>>>> 1924187cf5fb06a5e32dd05c1085746ff33c67f1
 
 class Instagram: 
     def __init__(self, email, password):
@@ -26,7 +31,7 @@ class Instagram:
         time.sleep(4)
         self.browser.get(f"https://www.instagram.com/{self.email}")
         time.sleep(4)
-        self.browser.find_element(By.CSS_SELECTOR, 'a[href="/berkekocadere/followers/"]').click()
+        self.browser.find_element(By.CSS_SELECTOR, 'a[href="/yourusername/followers/"]').click()
         time.sleep(4)
         dialog = self.browser.find_element(By.CSS_SELECTOR, "div[role='dialog']")
         
