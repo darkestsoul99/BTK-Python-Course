@@ -3,8 +3,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys  
 import time 
 
-my_email = "yourpassword"
-my_password = "yourusername"
+my_email = "yourusername"
+my_password = "yourpassword"
 
 class Instagram: 
     def __init__(self, email, password):

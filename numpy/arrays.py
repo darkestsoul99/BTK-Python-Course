@@ -15,7 +15,7 @@ print(result)
 result = np.zeros(10)
 
 print(result)
-
+ 
 result = np.ones(10)
 
 print(result)
@@ -55,3 +55,4 @@ print(result)
 result = result.reshape(5,10)
 
 print(result)
+
