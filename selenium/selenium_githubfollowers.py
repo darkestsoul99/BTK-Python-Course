@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 import time 
 
 my_username = "darkestsoul99"
-my_password = "berkekobirerkek5499"
+my_password = ""
 
 class GitHub: 
     def __init__(self, username, password) -> None:
